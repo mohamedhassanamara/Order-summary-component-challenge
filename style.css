@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(225, 100%, 94%);
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.card{
+
+    margin:24px auto 32px;
+    width: 350px;
+background-color: white;
+    border-radius: 32px;
+    padding-bottom:  24px;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.22);
+}
+
+.hero{
+    width: 350px;
+    border-top-left-radius: 32px;
+    border-top-right-radius: 32px;
+}
+
+.card-content{
+    margin: 48px 32px 0;
+}
+h1{
+    margin-bottom: 16px;
+    text-align: center;
+    color:hsl(223, 47%, 23%) ;
+}
+
+.description{
+    text-align: center;
+    width: 275px;
+    margin: 0 auto 16px;
+    color: hsl(224, 23%, 55%);
+}
+
+.price-block{
+    /*background-color:hsl(225, 100%, 94%);*/
+    padding: 24px 16px;
+    background-color:  hsl(225, 100%, 98%);
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+    gap: 16px;
+}
+
+.icon{
+    /*background-color: hsl(223, 47%, 23%);*/
+}
+
+.price{
+    font-size: 16px;
+    color: hsl(224, 23%, 55%);
+}
+
+.link{
+    font-weight: 700;
+    color: hsl(245, 75%, 52%);
+    text-decoration: underline;
+    /*border-bottom: 3px solid hsl(245, 75%, 52%);*/
+    /*padding-bottom: -3px;*/
+    cursor: pointer;
+}
+
+.link:hover{
+    text-decoration: none;
+    color: hsla(245, 75%, 52%, 0.66);
+}
+
+.button{
+    padding: 12px;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 14px;
+    cursor: pointer;
+    margin-bottom: 32px;
+}
+
+.button:hover{
+    box-shadow: 0 0 20px hsla(245, 75%, 52%, 0.47);
+    background-color: hsla(245, 75%, 52%, 0.76);
+}
+
+.cancel{
+    color: hsla(224, 23%, 55%, 0.81);
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    /*margin-bottom: 16px;*/
+    margin: 0 auto;
+    cursor: pointer;
+    /*width: available;*/
+
+}
+
+.cancel:hover{
+    color: hsl(224, 23%, 55%);
+    text-shadow: 0 5px 5px rgba(0, 0, 0, 0.08);
+}
